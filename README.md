@@ -1,3 +1,5 @@
+> This branch is a proof-of-concept modularized fork of the master branch from [rust-lang/rustup](https://github.com/rust-lang/rustup). The original script `rustup-init.sh` is unmodified, and the modularized script is `rustup-init-split.sh`. With [merge-shell](https://github.com/wpyoga/merge-shell) installed, the correctness of the modularization process can be verified by running `make test` in this directory.
+
 # Rustup: the Rust toolchain installer
 
 | Master CI    | Build Status                                             |
